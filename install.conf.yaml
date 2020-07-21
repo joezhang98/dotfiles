@@ -8,6 +8,7 @@
     ~/.bash: bash/
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
+    ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.ipython/profile_default/ipython_config.py: ipython/ipython_config.py
     ~/.ipython/profile_default/ipython_kernel_config.py: ipython/ipython_kernel_config.py
