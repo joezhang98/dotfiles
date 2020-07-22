@@ -4,3 +4,6 @@
     name = Zhao Zhang
     email = zz98@stanford.edu
     useConfigOnly = true
+[core]
+	pager = cat
+    excludesfile = ~/.gitignore_global
