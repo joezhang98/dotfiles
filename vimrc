@@ -79,3 +79,13 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 " customize CtrlP Vim plugin to open CtrlP by pressing Ctrl-P
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" customize syntastic plugin with recommended settings
+set statusline+=%#warnings#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
