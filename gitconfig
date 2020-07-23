@@ -1,4 +1,6 @@
 # This is Git's per-user configuration file.
+[alias]
+    graph = log --all --graph --decorate --oneline
 [user]
 # Please adapt and uncomment the following lines:
     name = Zhao Zhang
