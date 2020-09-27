@@ -4,6 +4,7 @@ execute pathogen#infect()
 " Syntax and indent
 
 syntax on " turn on syntax highlighting
+colorscheme desert
 set showmatch " show matching braces when text indicator is over them
 
 " highlight current line, but only in active window
