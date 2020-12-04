@@ -12,3 +12,7 @@ alias dc='cd'
 mcd() {
     mkdir "${1}" && cd "${1}"
 }
+
+# python aliases
+alias python='python3.8'
+alias python3='python3.8'
