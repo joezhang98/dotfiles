@@ -68,3 +68,6 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# ROS
+source /opt/ros/noetic/setup.zsh
