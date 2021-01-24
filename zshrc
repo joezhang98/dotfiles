@@ -4,6 +4,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Path to the oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Set $JAVA_HOME environment variable to JDK installation.
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 # Set name of the theme to load
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="agnoster"
