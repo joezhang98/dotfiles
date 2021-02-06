@@ -4,8 +4,11 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Path to the oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Set $JAVA_HOME environment variable to JDK installation.
-export JAVA_HOME=$(/usr/libexec/java_home)
+# Set $JAVA_HOME environment variable to JDK installation and add Maven to path.
+# Use Java 8 for Assignment 2 of CS 245
+# export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+export PATH=/opt/apache-maven-3.6.3/bin:$PATH
 
 # Set name of the theme to load
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
