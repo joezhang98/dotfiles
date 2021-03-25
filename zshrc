@@ -6,9 +6,14 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # Set $JAVA_HOME environment variable to JDK installation and add Maven to path.
 # Use Java 8 for Assignment 2 of CS 245
-# export JAVA_HOME=$(/usr/libexec/java_home)
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+# Use Java 11 for Assignments 1 and 3 of CS 245
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home
 export PATH=/opt/apache-maven-3.6.3/bin:$PATH
+
+# Set up Apache Spark.
+SPARK_HOME=/Users/zhaozhang/Desktop/stanford-courses/cs245/apache-spark
+export PATH=$SPARK_HOME/bin:$PATH
 
 # Set name of the theme to load
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
